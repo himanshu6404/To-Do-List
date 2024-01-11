@@ -10,11 +10,7 @@
     min-height: 100vh;
     width: 100%;
     padding: 10px;
-
-    border: 2px solid wheat;
-
-
-    
+    border: 2px solid wheat;    
 }
 
 .box{
@@ -31,6 +27,7 @@
  font-size: 18px;
  color: white;
 }
+
 .input-bar{
     display: flex;
     align-items: center;
@@ -49,9 +46,8 @@
     color: black;
     padding-left: 10px;
     font-size: 16px;
-    
-    
 }
+
 .input-bar button{
     outline: none;
     border: none;
@@ -61,9 +57,7 @@
     padding-left: 10px;
     padding-right: 10px;
     cursor: pointer;
-    font-size: 16px;
-    
-    
+    font-size: 16px;   
 }
 
 ul li{
@@ -77,18 +71,14 @@ ul li{
     display: flex;
     justify-content: space-between;
 }
+
 span{
     cursor: pointer;
 }
 
-
-
-
 .list{
     text-align: left;
-    margin-top: 15px;
-    
-
+    margin-top: 15px;  
 }
 
 #resetBtn{

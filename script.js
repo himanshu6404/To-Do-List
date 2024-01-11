@@ -1,5 +1,4 @@
 let a=document.getElementById("text");
-
 let list=document.querySelector(".list");
 
 let btn=document.querySelector("#btn");
@@ -9,15 +8,11 @@ btn.addEventListener("click",hi);
 
 let count=1;
 
-
-
-
 function hi(){
     if(a.value===" "){
         alert("Plz Write Something");
     }
     else{
-  
     let evt=document.createElement("li");
     let plus=document.createElement("span");
     
@@ -33,15 +28,9 @@ function hi(){
 
     count++;
     }
-
     a.value=" ";
-    saveData();
-
- 
+    saveData(); 
 }
-
-
-
 
 list.addEventListener("click",function(e){
     if(e.target.tagName==="SPAN"){
@@ -49,8 +38,6 @@ list.addEventListener("click",function(e){
         saveData();
     }
 });
-
-
 
 //Storing Data:
 
