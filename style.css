@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+
+    background: linear-gradient(135deg, #1b5296, #4e085f );
+    min-height: 100vh;
+    width: 100%;
+    padding: 10px;
+
+    border: 2px solid wheat;
+
+
+    
+}
+
+.box{
+    width: 100%;
+    max-width: 540px;
+    margin: 100px auto 20px;
+    padding: 4px 30px 70px;
+    border-radius: 20px;
+    background-color: rgba(75, 71, 71, 0.771);
+}
+
+.box h3{
+ text-align: center;
+ font-size: 18px;
+ color: white;
+}
+.input-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.input-bar input{
+    flex: 1;
+    width:90%;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    background-color: transparent;
+    background-color: rgb(221, 213, 213);
+    color: black;
+    padding-left: 10px;
+    font-size: 16px;
+    
+    
+}
+.input-bar button{
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    background-color: orangered;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    
+    
+}
+
+ul li{
+    list-style: none;
+    margin: 10px;
+    border-radius: 25px;
+    background-color: orangered;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+span{
+    cursor: pointer;
+}
+
+
+
+
+.list{
+    text-align: left;
+    margin-top: 15px;
+    
+
+}
+
+#resetBtn{
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 45%;
+}
